@@ -1,0 +1,53 @@
+.square{
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  margin: 10px;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.highlight{
+  border: 10px solid gray;
+  border-radius: 5px;
+}
+.red{
+  background-color: red;
+}
+
+.green{
+  background-color: green;
+}
+
+.blue{
+  background-color: blue;
+}
+
+.yellow{
+  background-color: yellow;
+}
+
+.App {
+  text-align: center;
+  padding: 100px;
+}
+
+.button {
+  background: gray;
+  border: 1px solid white;
+  color: white;
+  display: inline-block;
+  font-size: 1.2rem;
+  font-weight: 300;
+  line-height: 1;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  border-radius: 2.2rem;
+  width: 100px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.button:hover{
+  color: black
+}
